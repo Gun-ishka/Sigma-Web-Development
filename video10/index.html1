@@ -4,27 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SATGURU KRIPA🙏</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <video src="video.mp4" height="255" controls poster="download.jpg"></video> <!--loop muted autoplay-->
-    <audio src="SatguruMainTeri.mp3" controls></audio>
-    <svg height="100" width="100">
-        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
-    </svg>
-    <img src="img.svg" alt="My Svg Image">
-    <!--video, audio, svg are inline elements-->
-    <!--<iframe src="https://www.codewithharry.com/tutorial/html-iframes/" width="444" height="444"></iframe>-->
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/XZwBNDGuWGU?si=ne9BHg9_45ccSSfV&amp;start=195"
+    <!--<style>
+        h1 {
+            font-family: Arial, sans-serif;
+        }
+    </style> OR DO IT IN STYLE.CSS-->
+    <h1 style="background-color: rgb(214, 76, 103)">SATGURU BHAJANS</h1>
+    <iframe width="360" height="300" src="https://www.youtube.com/embed/tRobeCO1zek?si=mwPc6D0r6U55dXKU"
         title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
 
-    <!--Create a website which shows videos of different categories and audios of different categories. You can use YouTube videos in an iframe using YouTube's embedding feature-->
+    <iframe width="360" height="300" src="https://www.youtube.com/embed/YwzntIUoFXk?si=GL_TUs6SemYqDy3T"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
 
+    <iframe width="360" height="300" src="https://www.youtube.com/embed/pn8FYangBzU?si=340uMElK9_CO7kLC"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
 
+    <h1 style="background-color: rgb(214, 76, 103)">BOLLYWOOD BHAKTI SONGS</h1>
+    <iframe width="360" height="300" src="https://www.youtube.com/embed/TysYYMAGlBo?si=KCI1J-o4KzzrJLOu"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+    <iframe width="360" height="300" src="https://www.youtube.com/embed/6fKphXvCUDg?si=L7GN0_Hzmds6fjjv"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+    <iframe width="360" height="300" src="https://www.youtube.com/embed/dfQ0MvvGR08?si=vfORJx-oaqGSbVVc"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+    <h1 style="background-color: rgb(214, 76, 103)">BEAUTIFUL BHAJAN AUDIOS</h1>
+    <audio src="Naam Hai Tera Taran Hara.mp3" controls> Naam</audio>
+    <br>
+    <audio src="Guru Meri Pooja.mp3" controls></audio>
+    <br>
+    <audio src="Satguru Main Teri.mp3" controls></audio>
+    <br> 
+    <h2 style="background-color: goldenrod;">CALM YOUR SOUL HERE...😊</h2>
 </body>
 
 </html>

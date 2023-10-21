@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise2</title>
+</head>
+<style>
+    div>p {
+        background-color: yellow;
+        color: red;
+    }
+
+    div>p+p {
+        background-color: blue;
+        color: white;
+    }
+</style>
+
+<body>
+    <div>
+        <p>
+            An Operating System performs all the basic tasks like managing files, processes, and memory. Thus the
+            operating system acts as the manager of all the resources, i.e., a resource manager. Thus, the operating
+            system becomes an interface between the user and the machine. It is one of the most required software that
+            is present in the device. The Operating System is a type of software that works as an interface between the
+            system program and the hardware. There are several types of Operating Systems in which many are mentioned
+            below. Let’s have a look at them.
+        </p>
+        <p>
+            An OS manages device communication via its respective drivers. It performs the following activities for
+            device management. Keeps track of all devices connected to the system. designates a program responsible for
+            every device known as the Input/Output controller. Decide which process gets access to a certain device and
+            for how long. Allocates devices effectively and efficiently. Deallocates devices when they are no longer
+            required. There are various input and output devices. An OS controls the working of these input-output
+            devices. It receives the requests from these devices, performs a specific task, and communicates back to the
+            requesting process.
+        </p>
+        <p>
+            A file system is organized into directories for efficient or easy navigation and usage. These directories
+            may contain other directories and other files. An Operating System carries out the following file management
+            activities. It keeps track of where information is stored, user access settings, the status of every file,
+            and more. These facilities are collectively known as the file system. An OS keeps track of information
+            regarding the creation, deletion, transfer, copy, and storage of files in an organized way. It also
+            maintains the integrity of the data stored in these files, including the file directory structure, by
+            protecting against unauthorized access.
+        </p>
+        <p>
+            In a multi-programming environment, the OS decides the order in which processes have access to the processor
+            and how much processing time each process has. This function of OS is called Process Scheduling. An
+            Operating System performs the following activities for Processor Management.
+        </p>
+        <p>
+            Almost all operating systems have a user interface (UI). This interface can take several forms. One is a
+            command-line interface (CLI), which uses text commands and a method for entering them (say, a keyboard for
+            typing in commands in a specific format with specific options). Another is a batch interface, in which
+            commands and directives to control those commands are entered into files, and those files are executed. Most
+            commonly, a graphical user interface (GUI) is used. The interface is a window system with a pointing device
+            to direct I/O, choose from menus, and make selections and a keyboard to enter text.
+        </p>
+    </div>
+    <div>
+        <p>
+            A network is a collection of two or more devices connected by communication links so that they can
+            communicate with each other and share resources and information. Some examples of networks are email,
+            instant messaging, banking, etc.
+        </p>
+        <p>
+            Device:
+            Device means any entity connected to a network and capable of sharing and/or receiving data. It includes
+            devices such as PCs, printers, mobile phones, etc.
+        </p>
+        <p>
+            Communication link:
+            A communication channel that connects two devices in a network. The connection can be physical through
+            cables like copper wire, optical fiber or can be wireless like the use of radio waves.
+        </p>
+        <p>
+            Point-to-Point:
+            A dedicated communication channel or link connects 2 devices. The two connected devices use the full
+            capacity of the channel as no other devices are connected.
+        </p>
+        <p>
+            Multipoint (Broadcast):
+            More than two devices share a single link. Channel capacity is shared between connected devices.
+        </p>
+    </div>
+    <div>
+        <p>
+            Database Management System (DBMS) is a software for storing and retrieving users’ data while considering
+            appropriate security measures. It consists of a group of programs which manipulate the database. The DBMS
+            accepts the request for data from an application and instructs the operating system to provide the specific
+            data. In large systems, a DBMS helps users and other third-party software to store and retrieve data.
+        </p>
+        <p>
+            A database is an organised collection of structured information, or data, typically stored electronically in
+            a computer system. A database is usually controlled by a database management system (DBMS). Together, the
+            data and the DBMS, along with the applications that are associated with them, are referred to as a database
+            system, often shortened to just a database.
+        </p>
+        <p>
+            A Relational Database Management system (RDBMS) is a database management system that is based on the
+            relational model. It has the following major components: Table, Record/Tuple/Row, Field, and
+            Column/Attribute. Examples of the most popular RDBMS are MYSQL, Oracle, IBM DB2, and Microsoft SQL Server
+            database.
+        </p>
+        <p>
+            To ensure the consistency of the database, certain properties are followed by all the
+            transactions occurring in the system.
+            These properties are called ACID Properties of a transaction.
+        </p>
+        <p>
+            Scaling alters the size of a system. In the scaling process, we either compress or expand the system to meet
+            the expected needs. The scaling operation can be achieved by adding resources to meet the smaller
+            expectation in the current system, or by adding a new system in the existing one, or both.
+        </p>
+    </div>
+</body>
+
+</html>
